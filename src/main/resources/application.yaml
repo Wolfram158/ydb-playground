@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: playground
+  datasource:
+      url: jdbc:ydb:grpc://localhost:2136/local
+      driver-class-name: tech.ydb.jdbc.YdbDriver
+server:
+  port: 1400
